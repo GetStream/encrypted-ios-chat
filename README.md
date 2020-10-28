@@ -15,7 +15,7 @@ This repository contains the completed Xcode project following the [End-to-End E
 
 ### Configuration
 
-You should place your [Stream Chat](https://getstream.io/chat) credentials in [`AppDelegate.swift`](EncryptedChat/EncryptedChat/AppDelegate.swift#L21-L23).
+You should place your [Stream Chat](https://getstream.io/chat/) credentials in [`AppDelegate.swift`](EncryptedChat/EncryptedChat/AppDelegate.swift#L21-L23).
 
 ## 🔗 Helpful Links
 
