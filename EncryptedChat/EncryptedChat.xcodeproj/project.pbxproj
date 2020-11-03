@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80384E172548632000C53FF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E1225485CEC00C53FF0 /* LoginViewController.swift */; };
+		80384E1A25488B0500C53FF0 /* PublicKeyExtraData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E1925488B0500C53FF0 /* PublicKeyExtraData.swift */; };
+		80384E1F2548B96B00C53FF0 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E1E2548B96B00C53FF0 /* UIViewController+Alert.swift */; };
+		80384E252548CD8600C53FF0 /* generatePrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E242548CD8600C53FF0 /* generatePrivateKey.swift */; };
+		80384E292548CE1700C53FF0 /* deriveSymmetricKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E282548CE1700C53FF0 /* deriveSymmetricKey.swift */; };
+		80384E2C2548D07100C53FF0 /* encrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E2B2548D07100C53FF0 /* encrypt.swift */; };
+		80384E2F2548D17400C53FF0 /* decrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E2E2548D17400C53FF0 /* decrypt.swift */; };
+		80384E332548DA3C00C53FF0 /* EncryptedChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E322548DA3C00C53FF0 /* EncryptedChatViewController.swift */; };
+		80384E362548DD2400C53FF0 /* importPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E352548DD2400C53FF0 /* importPrivateKey.swift */; };
+		80384E3D2548DE5200C53FF0 /* exportPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80384E3C2548DE5200C53FF0 /* exportPublicKey.swift */; };
+		80CA550C2549C2D5005095EB /* importPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA550B2549C2D5005095EB /* importPublicKey.swift */; };
+		80D741022547487700AFFD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D741012547487700AFFD92 /* AppDelegate.swift */; };
+		80D741042547487700AFFD92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D741032547487700AFFD92 /* SceneDelegate.swift */; };
+		80D741092547487700AFFD92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D741072547487700AFFD92 /* Main.storyboard */; };
+		80D7410B2547487800AFFD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7410A2547487800AFFD92 /* Assets.xcassets */; };
+		80D7410E2547487800AFFD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D7410C2547487800AFFD92 /* LaunchScreen.storyboard */; };
+		80D741182547498500AFFD92 /* StreamChatCore in Frameworks */ = {isa = PBXBuildFile; productRef = 80D741172547498500AFFD92 /* StreamChatCore */; };
+		80D7411A2547498500AFFD92 /* StreamChatClient in Frameworks */ = {isa = PBXBuildFile; productRef = 80D741192547498500AFFD92 /* StreamChatClient */; };
+		80D7411C2547498500AFFD92 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 80D7411B2547498500AFFD92 /* StreamChat */; };
+		80DB4356255056BF0079AD22 /* exportPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB4355255056BF0079AD22 /* exportPrivateKey.swift */; };
+		80DB435B255081060079AD22 /* setUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB435A255081060079AD22 /* setUser.swift */; };
+		80DB435F255086970079AD22 /* presentEncryptedChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB435E255086970079AD22 /* presentEncryptedChat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80384E1225485CEC00C53FF0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80384E1925488B0500C53FF0 /* PublicKeyExtraData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKeyExtraData.swift; sourceTree = "<group>"; };
+		80384E1E2548B96B00C53FF0 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		80384E242548CD8600C53FF0 /* generatePrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generatePrivateKey.swift; sourceTree = "<group>"; };
+		80384E282548CE1700C53FF0 /* deriveSymmetricKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deriveSymmetricKey.swift; sourceTree = "<group>"; };
+		80384E2B2548D07100C53FF0 /* encrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encrypt.swift; sourceTree = "<group>"; };
+		80384E2E2548D17400C53FF0 /* decrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decrypt.swift; sourceTree = "<group>"; };
+		80384E322548DA3C00C53FF0 /* EncryptedChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedChatViewController.swift; sourceTree = "<group>"; };
+		80384E352548DD2400C53FF0 /* importPrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importPrivateKey.swift; sourceTree = "<group>"; };
+		80384E3C2548DE5200C53FF0 /* exportPublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exportPublicKey.swift; sourceTree = "<group>"; };
+		80CA550B2549C2D5005095EB /* importPublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importPublicKey.swift; sourceTree = "<group>"; };
+		80D740FE2547487700AFFD92 /* EncryptedChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptedChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D741012547487700AFFD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D741032547487700AFFD92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80D741082547487700AFFD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D7410A2547487800AFFD92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D7410D2547487800AFFD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D7410F2547487800AFFD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB4355255056BF0079AD22 /* exportPrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exportPrivateKey.swift; sourceTree = "<group>"; };
+		80DB435A255081060079AD22 /* setUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setUser.swift; sourceTree = "<group>"; };
+		80DB435E255086970079AD22 /* presentEncryptedChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presentEncryptedChat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D740FB2547487700AFFD92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D7411C2547498500AFFD92 /* StreamChat in Frameworks */,
+				80D741182547498500AFFD92 /* StreamChatCore in Frameworks */,
+				80D7411A2547498500AFFD92 /* StreamChatClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80384E1D2548B95D00C53FF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80384E1E2548B96B00C53FF0 /* UIViewController+Alert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80384E232548CD5A00C53FF0 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				80384E242548CD8600C53FF0 /* generatePrivateKey.swift */,
+				80384E352548DD2400C53FF0 /* importPrivateKey.swift */,
+				80DB4355255056BF0079AD22 /* exportPrivateKey.swift */,
+				80CA550B2549C2D5005095EB /* importPublicKey.swift */,
+				80384E3C2548DE5200C53FF0 /* exportPublicKey.swift */,
+				80384E282548CE1700C53FF0 /* deriveSymmetricKey.swift */,
+				80384E2B2548D07100C53FF0 /* encrypt.swift */,
+				80384E2E2548D17400C53FF0 /* decrypt.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		80D740F52547487700AFFD92 = {
+			isa = PBXGroup;
+			children = (
+				80D741002547487700AFFD92 /* EncryptedChat */,
+				80D740FF2547487700AFFD92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D740FF2547487700AFFD92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D740FE2547487700AFFD92 /* EncryptedChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D741002547487700AFFD92 /* EncryptedChat */ = {
+			isa = PBXGroup;
+			children = (
+				80384E1D2548B95D00C53FF0 /* Extensions */,
+				80DB4359255080F00079AD22 /* StreamChat */,
+				80384E232548CD5A00C53FF0 /* Encryption */,
+				80D741012547487700AFFD92 /* AppDelegate.swift */,
+				80D741032547487700AFFD92 /* SceneDelegate.swift */,
+				80384E1225485CEC00C53FF0 /* LoginViewController.swift */,
+				80384E322548DA3C00C53FF0 /* EncryptedChatViewController.swift */,
+				80384E1925488B0500C53FF0 /* PublicKeyExtraData.swift */,
+				80D741072547487700AFFD92 /* Main.storyboard */,
+				80D7410A2547487800AFFD92 /* Assets.xcassets */,
+				80D7410C2547487800AFFD92 /* LaunchScreen.storyboard */,
+				80D7410F2547487800AFFD92 /* Info.plist */,
+			);
+			path = EncryptedChat;
+			sourceTree = "<group>";
+		};
+		80DB4359255080F00079AD22 /* StreamChat */ = {
+			isa = PBXGroup;
+			children = (
+				80DB435A255081060079AD22 /* setUser.swift */,
+				80DB435E255086970079AD22 /* presentEncryptedChat.swift */,
+			);
+			path = StreamChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D740FD2547487700AFFD92 /* EncryptedChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D741122547487800AFFD92 /* Build configuration list for PBXNativeTarget "EncryptedChat" */;
+			buildPhases = (
+				80D740FA2547487700AFFD92 /* Sources */,
+				80D740FB2547487700AFFD92 /* Frameworks */,
+				80D740FC2547487700AFFD92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptedChat;
+			packageProductDependencies = (
+				80D741172547498500AFFD92 /* StreamChatCore */,
+				80D741192547498500AFFD92 /* StreamChatClient */,
+				80D7411B2547498500AFFD92 /* StreamChat */,
+			);
+			productName = EncryptedChat;
+			productReference = 80D740FE2547487700AFFD92 /* EncryptedChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D740F62547487700AFFD92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					80D740FD2547487700AFFD92 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 80D740F92547487700AFFD92 /* Build configuration list for PBXProject "EncryptedChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D740F52547487700AFFD92;
+			packageReferences = (
+				80D741162547498500AFFD92 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
+			productRefGroup = 80D740FF2547487700AFFD92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D740FD2547487700AFFD92 /* EncryptedChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D740FC2547487700AFFD92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D7410E2547487800AFFD92 /* LaunchScreen.storyboard in Resources */,
+				80D7410B2547487800AFFD92 /* Assets.xcassets in Resources */,
+				80D741092547487700AFFD92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D740FA2547487700AFFD92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80384E252548CD8600C53FF0 /* generatePrivateKey.swift in Sources */,
+				80384E2F2548D17400C53FF0 /* decrypt.swift in Sources */,
+				80384E1F2548B96B00C53FF0 /* UIViewController+Alert.swift in Sources */,
+				80384E332548DA3C00C53FF0 /* EncryptedChatViewController.swift in Sources */,
+				80384E172548632000C53FF0 /* LoginViewController.swift in Sources */,
+				80DB435F255086970079AD22 /* presentEncryptedChat.swift in Sources */,
+				80384E292548CE1700C53FF0 /* deriveSymmetricKey.swift in Sources */,
+				80384E3D2548DE5200C53FF0 /* exportPublicKey.swift in Sources */,
+				80DB435B255081060079AD22 /* setUser.swift in Sources */,
+				80DB4356255056BF0079AD22 /* exportPrivateKey.swift in Sources */,
+				80384E1A25488B0500C53FF0 /* PublicKeyExtraData.swift in Sources */,
+				80384E362548DD2400C53FF0 /* importPrivateKey.swift in Sources */,
+				80384E2C2548D07100C53FF0 /* encrypt.swift in Sources */,
+				80D741022547487700AFFD92 /* AppDelegate.swift in Sources */,
+				80D741042547487700AFFD92 /* SceneDelegate.swift in Sources */,
+				80CA550C2549C2D5005095EB /* importPublicKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80D741072547487700AFFD92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D741082547487700AFFD92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D7410C2547487800AFFD92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D7410D2547487800AFFD92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D741102547487800AFFD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D741112547487800AFFD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D741132547487800AFFD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = EncryptedChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.EncryptedChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D741142547487800AFFD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = EncryptedChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.EncryptedChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D740F92547487700AFFD92 /* Build configuration list for PBXProject "EncryptedChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D741102547487800AFFD92 /* Debug */,
+				80D741112547487800AFFD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D741122547487800AFFD92 /* Build configuration list for PBXNativeTarget "EncryptedChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D741132547487800AFFD92 /* Debug */,
+				80D741142547487800AFFD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80D741162547498500AFFD92 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80D741172547498500AFFD92 /* StreamChatCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D741162547498500AFFD92 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatCore;
+		};
+		80D741192547498500AFFD92 /* StreamChatClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D741162547498500AFFD92 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatClient;
+		};
+		80D7411B2547498500AFFD92 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80D741162547498500AFFD92 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80D740F62547487700AFFD92 /* Project object */;
+}
